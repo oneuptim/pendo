@@ -19,9 +19,10 @@
                 </item>
             </div>
         </div>
-
-        <span ng-repeat="image in prof.currentUser.images | limitTo:16">
-          <img ng-src="{{image.source}}" width="150px" height="150px">
-        </span>
+        <div class="photos">
+          <span ng-repeat="image in prof.currentUser.images | limitTo:16">
+            <img ng-src="{{image.source}}" width="165px" height="auto" vertical-align:top;>
+          </span>
+        </div>
     </ion-content>
 </ion-view>

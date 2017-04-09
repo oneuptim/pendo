@@ -1,7 +1,7 @@
 {
   "name": "pendo",
   "version": "1.1.1",
-  "description": "pendo: An Ionic project",
+  "description": "pendo: Adventist Singles Dating App",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
