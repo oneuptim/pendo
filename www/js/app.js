@@ -2,7 +2,7 @@
 var config = {
   apiKey: "AIzaSyB43vAHlyGdVDWmtedmR5Fxcm5CNXBNuf0",
   authDomain: "pendo-5d34c.firebaseapp.com",
-  databaseURL: "https://pendo-5d34c.firebaseio.com",
+  databaseURL: "https://pendo-5d34c.firebaseio.com/",
   storageBucket: "pendo-5d34c.appspot.com",
   messagingSenderId: "851634669997"
 };
@@ -139,3 +139,6 @@ var app = angular.module('starter', ['ionic', 'firebase', 'ionic.contrib.ui.tind
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/login');
 });
+
+
+// https://pendo-5d34c.firebaseio.com/__/auth/handler

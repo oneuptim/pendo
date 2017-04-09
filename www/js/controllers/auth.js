@@ -9,7 +9,6 @@ app.controller('AuthCtrl', function(Auth, $state) {
 
         return Auth.login().then(function(result) {
             $state.go('app.home');
-            // Redirects users to home page after the user logs in successfull!
         });
 
     };

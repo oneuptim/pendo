@@ -20,8 +20,8 @@
             </div>
         </div>
         <div class="photos">
-          <span ng-repeat="image in prof.currentUser.images | limitTo:16">
-            <img ng-src="{{image.source}}" width="165px" height="auto" vertical-align:top;>
+          <span ng-repeat="image in prof.currentUser.images | limitTo:6">
+            <img ng-src="{{image.source}}" width="50%" height="auto" vertical-align:top;>
           </span>
         </div>
     </ion-content>
